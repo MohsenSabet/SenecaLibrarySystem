@@ -17,12 +17,16 @@ The Seneca Library Application is a comprehensive library management system I de
 
 **Modular Design**: 
   The project is structured into several milestones, each adding functionality and complexity, highlighting an incremental development approach.
+  
 **Streamable Interface**: 
   Custom IO operations for library items are managed through a Streamable interface, showcasing polymorphic behavior.
+  
 **Dynamic Memory Management**: 
   The application uses dynamic memory allocation efficiently, demonstrating the use of smart pointers and memory management techniques.
+  
 **User Interaction**: 
   Features a user-friendly, console-based interface that facilitates easy navigation and operation of library management tasks.
+  
 **Error Handling**: 
   Incorporates comprehensive error checking and validation to ensure the reliability and robustness of the application.
 
