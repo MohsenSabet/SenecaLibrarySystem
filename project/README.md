@@ -1,51 +1,39 @@
-# Seneca Library Application
+## How to Run the Seneca Library Application
 
-Welcome to the Seneca Library Application repository. This project is a comprehensive library management system developed in C++, showcasing advanced concepts in object-oriented programming, data management, and user interaction.
+This section provides detailed instructions on how to compile and run the Seneca Library Application, a project involving multiple milestones that culminate in a comprehensive library management system.
 
-## Table of Contents
+### Prerequisites
 
-- [Project Description](#project-description)
-- [Project](#project)
-- [Contact](#contact)
-- [Disclaimer](#Disclaimer)
+- A C++ compiler (such as `g++`) capable of compiling C++11 standard code.
+- The project's source files, including `.cpp` and `.h` files for Utils, Date, Streamable, Publication, Book, PublicationSelector, LibApp modules, and others as detailed in each milestone.
 
-## Project Description
+### Compiling the Project
 
-The Seneca Library Application is a comprehensive library management system I developed as part of my advanced studies in C++. This project demonstrates my capability in handling complex software development tasks, including object-oriented programming, data management, and user interaction. The application efficiently manages library operations like tracking publications, lending books and periodicals, and handling returns.
+1. **Clone the Repository**: Clone or download the repository to your local machine.
+```
+git clone https://github.com/yourusername/Seneca-Library-Application.git
+```
+2. **Navigate to the Project Directory**: Change to the directory containing the project files.
+```
+cd Seneca-Library-Application
+```
+3. **Compile the Source Code**: Compile the source files using the C++ compiler. Here's an example command to compile the project (adjust the source file names as necessary):
 
-### Key Features:
+```
+g++ -Wall -std=c++11 -g -o LibApp Utils.cpp Date.cpp Streamable.cpp Publication.cpp Book.cpp PublicationSelector.cpp LibApp.cpp LibAppMain.cpp
+```
 
-**Modular Design**: 
-  The project is structured into several milestones, each adding functionality and complexity, highlighting an incremental development approach.
-  
-**Streamable Interface**: 
-  Custom IO operations for library items are managed through a Streamable interface, showcasing polymorphic behavior.
-  
-**Dynamic Memory Management**: 
-  The application uses dynamic memory allocation efficiently, demonstrating the use of smart pointers and memory management techniques.
-  
-**User Interaction**: 
-  Features a user-friendly, console-based interface that facilitates easy navigation and operation of library management tasks.
-  
-**Error Handling**: 
-  Incorporates comprehensive error checking and validation to ensure the reliability and robustness of the application.
+- `-Wall`: Enables all compiler's warning messages.
+- `-std=c++11`: Compiles the code using the C++11 standard.
+- `-g`: Includes debugging information in the executable.
+- `-o LibApp`: Names the output executable `LibApp`.
 
-## Project
+### Running the Project
 
-Seneca Library Application:
-#### [Assembly Line Simulator](https://github.com/MohsenSabet/AdvancedCppProjects/tree/main/Project)
+After compiling the project, execute the `LibApp` binary to start the application:
 
-## Contact
-I'm always open to discussing software development, C++ programming, or potential collaboration opportunities. If you have any questions, feedback, or would like to connect, please don't hesitate to reach out to me. Your input and inquiries are always welcome.
-
-- Email: 📧 [msabetkoohenjani@myseneca.ca](mailto:msabetkoohenjani@myseneca.ca)
-- LinkedIn: [Mohsen Sabet](https://www.linkedin.com/in/mohsen-sabet-9a35981aa/)
-
-Feel free to connect with me on LinkedIn for a more professional networking experience.
-
-Thank you for your interest in my work!
-
-## Disclaimer
-I kindly urge visitors to use this repository as a learning resource and not for plagiarism or cheating in academic or professional settings. This collection represents my personal journey and effort in mastering Object-Oriented Software Development using C++, and I strongly support the principles of academic integrity and intellectual honesty.
+```
+./LibApp
+```
 
 
